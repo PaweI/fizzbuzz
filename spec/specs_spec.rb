@@ -17,5 +17,11 @@ describe 'specs' do
     expect(max_value([12, 3, 5, 7, 9, 234, 90])).to eq 234
   end
 
+  it 'calculate a remainder' do 
+    expect(remainder(376, 12)).to eq 4
+  end
 
+  it 'returns distinct values from a list including duplicates' do
+    expect(distinct_values([1, 3, 5, 3, 7, 3, 1, 1, 5])).to eq [1, 3, 5, 7]
+  end
 end
