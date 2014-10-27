@@ -37,7 +37,8 @@ describe 'when playing the game says' do
 		expect(fizzbuzz_says(15)).to eq "FizzBuzz"
 	end
 
-	it 'returns number if NOT divisible by 3,5 or 15' do
+	it 'returns number if NOT divisible by 3, 5 or 15' do
 		expect(fizzbuzz_says(1)).to eq 1
 	end
 end
+ 
