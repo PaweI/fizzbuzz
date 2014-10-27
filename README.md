@@ -1,3 +1,6 @@
-Fizzbuzz with Ruby and Rspec (TDD)
+TDD, Ruby, Rspec
 
-"rspec" to run
+```
+rspec to run
+
+```
