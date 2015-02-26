@@ -7,22 +7,19 @@ def sentence_reverse(sentence)
 end
 
 def min_value(array)
-  array.min 
+  array.min
 end
 
 def max_value(array)
-  array.max 
+  array.max
 end
 
-def remainder(x, y)
-  x-(x/y*y)
+def division_remainder(number, divisor)
+  number - (number / divisor * divisor)
 end
 
 def distinct_values(array)
   new_arr = []
-  array.sort.each do |num|
-    new_arr << num if !new_arr.include?(num)
-  end
+  array.sort.select { |num| new_arr << num unless new_arr.include?(num) }
   new_arr
 end
-
